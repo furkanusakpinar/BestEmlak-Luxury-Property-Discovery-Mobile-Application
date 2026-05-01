@@ -2,7 +2,7 @@
   <img src="https://img.icons8.com/fluency/96/home.png" width="80" alt="Logo" />
 </p>
 
-<h1 align="center">🏢 Lüks Gayrimenkul Platformu</h1>
+<h1 align="center">Lüks Gayrimenkul Platformu</h1>
 
 <p align="center">
   <strong>Hayallerinizdeki Lüks Yaşama Açılan Kapı</strong><br />
