@@ -1,50 +1,58 @@
-# Welcome to your Expo app 👋
+# 🏢 Emlak - Lüks Gayrimenkul Platformu
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+<p align="center">
+  <strong>Hayallerinizdeki Lüks Yaşama Açılan Kapı</strong><br />
+  Modern, Güvenilir ve Premium Gayrimenkul Deneyimi Artık Cebinizde!
+</p>
 
-## Get started
+---
 
-1. Install dependencies
+<p align="center">
 
-   ```bash
-   npm install
-   ```
+![React Native](https://img.shields.io/badge/React%20Native-0.7x-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![Expo](https://img.shields.io/badge/Expo-SDK%2054-000020?style=for-the-badge&logo=expo&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-Database%20%7C%20Auth-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Platform](https://img.shields.io/badge/Platform-iOS%20%7C%20Android-lightgrey?style=for-the-badge)
 
-2. Start the app
+</p>
 
-   ```bash
-   npx expo start
-   ```
+---
 
-In the output, you'll find options to open the app in a
+## 📱 Proje Hakkında
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+**Best Emlak**, kullanıcıların lüks konutları, villaları ve özel arsaları keşfetmesini sağlayan, Firebase entegrasyonlu modern bir mobil emlak platformudur. Şık karanlık mod (Dark Mode) tasarımı ve akıcı kullanıcı deneyimi ile gayrimenkul aramayı bir keyfe dönüştürür.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+### ✨ Temel Özellikler
 
-## Get a fresh project
+- 🔐 **Gelişmiş Kimlik Doğrulama**: Firebase Auth ile güvenli kayıt ve giriş sistemi.
+- 💾 **Beni Hatırla (Persistent Login)**: Expo SecureStore ile güvenli ve kalıcı oturum yönetimi.
+- ❤️ **Favorileme Sistemi**: Beğendiğiniz ilanları anlık olarak favorilerinize ekleyin, tüm cihazlarınızda senkronize kalsın.
+- 🏠 **Dinamik İlan Yönetimi**: Firebase Realtime Database üzerinden anlık güncellenen mülk listesi.
+- 🤝 **Uzman Emlakçılar**: Bölgenin en güvenilir danışmanlarına ve portföylerine tek ekrandan ulaşım.
+- 🔍 **Akıllı Filtreleme**: Bölge, fiyat ve kategori bazlı detaylı arama seçenekleri.
+- 🔄 **Pull-to-Refresh**: Tüm sayfalarda aşağı çekerek verileri anında güncelleme imkanı.
+- 🌙 **Premium Tasarım**: Altın sarısı ve antrasit tonlarıyla harmanlanmış, lüksü hissettiren Glassmorphism arayüzü.
 
-When you're ready, run:
+---
 
+## 🛠️ Teknoloji Yığını
+
+- **Framework**: [Expo](https://expo.dev/) (React Native)
+- **Veri Yönetimi**: [Firebase Realtime Database](https://firebase.google.com/docs/database)
+- **Kimlik Doğrulama**: [Firebase Authentication](https://firebase.google.com/docs/auth)
+- **Navigasyon**: [Expo Router](https://docs.expo.dev/router/introduction/) (Tab & Stack Navigation)
+- **Güvenli Depolama**: [Expo SecureStore](https://docs.expo.dev/versions/latest/sdk/secure-store/) (Şifrelenmiş kimlik saklama)
+- **İkonlar**: [Ionicons](https://ionicons.com/) & [Vector Icons](https://icons.expo.fyi/)
+- **Geri Bildirim**: [React Native Toast Message](https://github.com/calintamas/react-native-toast-message)
+
+---
+
+## 🚀 Kurulum ve Başlatma
+
+Uygulamayı yerel ortamınızda çalıştırmak için aşağıdaki adımları izleyin:
+
+### 1. Depoyu Klonlayın
 ```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+git clone https://github.com/furkanusakpinar/Estate-mobile-app.git
+cd Estate-mobile-app
